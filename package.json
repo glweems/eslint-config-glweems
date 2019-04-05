@@ -1,0 +1,46 @@
+{
+  "name": "eslint-config-glweems",
+  "version": "0.0.1",
+  "description": "eslint for kool kids",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.14.1",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-html": "^5.0.3",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "prettier": "^1.16.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.14.1",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-html": "^5.0.3",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "prettier": "^1.16.4"
+  },
+  "repository": "github:glweems/eslint-config-glweems",
+  "keywords": [
+    "eslint",
+    "conig",
+    "prettier",
+    "react",
+    "glweems"
+  ],
+  "author": "Garrett Weems <gwgraphicdesign@gmail.com> (https://glweems.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glweems/eslint-config-glweems/issues"
+  },
+  "homepage": "https://github.com/glweems/eslint-config-glweems#readme"
+}
